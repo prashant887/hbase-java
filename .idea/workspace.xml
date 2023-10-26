@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b0b7e7-9d21-42a3-9fa0-8f245f8e172f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FilterMultiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FilterOnColumnValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FilterOnRowKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapreduce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapreduce/MaritalStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapreduce/MaritalStatusReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilterOnColumnValues">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FilterOnColumnValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FilterOnColumnValues" />
       <module name="hbase-java.main" />
@@ -85,15 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleGet" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mapreduce.Main" />
       <module name="hbase-java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mapreduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimplePut" />
+    <configuration name="SimpleGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleGet" />
       <module name="hbase-java.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.FilterOnColumnValues" />
         <item itemvalue="Application.FilterOnRowKeys" />
         <item itemvalue="Application.SimpleScan" />
         <item itemvalue="Application.SimpleGet" />
-        <item itemvalue="Application.SimplePut" />
       </list>
     </recent_temporary>
   </component>
